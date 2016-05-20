@@ -1,5 +1,5 @@
 [project]
-title = My project
+title = Empty
 version = 0.1
 
 [bootstrap]
@@ -9,12 +9,15 @@ main_collection = /main/main.collectionc
 game_binding = /input/game.input_bindingc
 
 [display]
-width = 1280
-height = 720
+width = 1024
+height = 768
 
 [physics]
 scale = 0.02
 
 [script]
 shared_state = 1
+
+[ios]
+bundle_identifier = com.dieselGames.ttk
 
