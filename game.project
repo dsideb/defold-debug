@@ -1,9 +1,9 @@
 [project]
-title = Empty
+title = debug
 version = 0.1
 
 [bootstrap]
-main_collection = /main/main.collectionc
+main_collection = /main/examples/euler_rotation/euler_rotation.collectionc
 
 [input]
 game_binding = /input/game.input_bindingc
@@ -19,5 +19,8 @@ scale = 0.02
 shared_state = 1
 
 [ios]
-bundle_identifier = com.dieselGames.ttk
+bundle_identifier = com.debug
+
+[android]
+package = com.debug
 

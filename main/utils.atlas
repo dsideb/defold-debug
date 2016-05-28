@@ -1,0 +1,9 @@
+images {
+  image: "/main/images/bg_target.png"
+}
+images {
+  image: "/main/images/target.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
