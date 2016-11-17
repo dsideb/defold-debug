@@ -1,5 +1,5 @@
 # defold-debug
 Debug project that showcases some issues experienced with defold framework
 
-## euler_rotation
+## Euler_rotation
 Demonstrates strange behavior with a z-axis rotation using the euler property on a game object (go.animate).

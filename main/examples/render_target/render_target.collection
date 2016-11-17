@@ -1,0 +1,62 @@
+name: "default"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "embedded_components {\n  id: \"bg\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/main/examples/stencil_mask/bg.atlas\\\"\\ndefault_animation: \\\"bg_kitten\\\"\\nmaterial: \\\"/builtins/materials/sprite.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: 585.3287\n    y: 458.94904\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\nembedded_components {\n  id: \"dog_mask\"\n  type: \"sprite\"\n  data: \"tile_set: \\\"/main/examples/stencil_mask/bg.atlas\\\"\\ndefault_animation: \\\"dog\\\"\\nmaterial: \\\"/main/examples/stencil_mask/custom_materials/mask.material\\\"\\nblend_mode: BLEND_MODE_ALPHA\\n\"\n  position {\n    x: 399.36316\n    y: 520.641\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.2
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "go1"
+  data: "components {\n  id: \"gui\"\n  component: \"/main/examples/stencil_mask/stencil_mask.gui\"\n  position {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 515.2397
+    y: 450.56525
+    z: 0.9
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "go2"
+  data: "components {\n  id: \"model\"\n  component: \"/main/examples/render_target/quad.model\"\n  position {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n  }\n  rotation {\n    x: 0.0\n    y: 0.0\n    z: 0.0\n    w: 1.0\n  }\n}\n"
+  position {
+    x: 743.5342
+    y: 581.75714
+    z: 0.55
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

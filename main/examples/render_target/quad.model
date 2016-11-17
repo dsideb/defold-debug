@@ -1,0 +1,3 @@
+mesh: "/main/examples/render_target/quad.dae"
+material: "/builtins/materials/spine.material"
+name: "unnamed"
